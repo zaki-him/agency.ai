@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+*{
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+@theme{
+  --primary-color: #5044E5;
+  --highlight-color: linear-gradient(90deg, hsla(252, 42%, 45%, 1) 6%, hsla(270, 77%, 71%, 1) 100%);
+}
