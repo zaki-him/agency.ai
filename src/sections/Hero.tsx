@@ -10,9 +10,9 @@ const Hero: React.FC = () => {
         <p className="text-sm font-medium text-neutral-500">Trusted by 10k people</p>
       </div>
 
-      <div className="flex flex-col gap-5">
+      <div className="flex flex-col items-center gap-5">
         <h3 className="font-medium text-center text-4xl sm-text-5xl md:text-6xl xl:text-[84px] xl:leading-[95px] max-w-5xl text-neutral-700">Turning imagination into <span className="bg-gradient-to-r from-[#5044E5] to-[#4d8cea] bg-clip-text text-transparent">digital</span> impact.</h3>
-        <p className="text-xl text-center text-neutral-400">Creating meaningful connections and turning big ideas into interactive digital experiences.</p>
+        <p className="max-w-lg text-xl text-center text-neutral-400">Creating meaningful connections and turning big ideas into interactive digital experiences.</p>
       </div>
 
       <div className="max-w-xl sm:max-w-2xl md:max-w-3xl lg:max-w-5xl flex justify-center">

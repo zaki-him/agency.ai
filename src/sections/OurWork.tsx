@@ -27,7 +27,7 @@ const OurWork: React.FC = () => {
         <h1 className="text-2xl sm:text-3xl md:text-4xl text-neutral-700">
           Our Work
         </h1>
-        <p className="text-center text-neutral-500 md:text-xl">
+        <p className="max-w-lg text-center text-neutral-500 md:text-xl">
           From strategy to execution, we craft digital solutions that move your
           business forward.
         </p>
