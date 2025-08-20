@@ -6,6 +6,7 @@ import Services from './sections/Services'
 import OurWork from './sections/OurWork'
 import Team from './sections/Team'
 import Contact from './sections/Contact'
+import Footer from './sections/Footer'
 
 const App: React.FC = () => {
   return (
@@ -17,6 +18,7 @@ const App: React.FC = () => {
       <OurWork />
       <Team />
       <Contact />
+      <Footer />
     </div>
   )
 }

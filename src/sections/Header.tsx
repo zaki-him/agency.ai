@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import assets from '../assets/assets.ts'
 import { ArrowRight , Menu , X} from 'lucide-react'
+import { motion } from 'motion/react'
 
 const Header: React.FC = () => {
   const links:{title: string , href: string}[] = [
@@ -23,7 +24,11 @@ const Header: React.FC = () => {
   ]
   const [isOpen , setIsOpen] = useState(false)
   return (
-    <header className='flex justify-between items-center py-5 xl:px-40 lg:px-24 md:px-16 px-4 sticky top-0 backdrop-blur-xl font-medium bg-white/50 z-20 w-full'>
+    <motion.header
+    initial={{opacity: 0, y: -50}}
+    animate={{opacity: 1, y: 0}}
+    transition={{duration: 0.6, ease: 'easeOut'}}
+    className='flex justify-between items-center py-5 xl:px-40 lg:px-24 md:px-16 px-4 sticky top-0 backdrop-blur-xl font-medium bg-white/50 z-20 w-full'>
       
       <a href="">
         <img src={assets.logo} alt="" className='w-32 sm:w-40' />
@@ -50,7 +55,7 @@ const Header: React.FC = () => {
         <Menu className='w-5 sm:hidden'/>
         </button>
       </div>
-    </header>
+    </motion.header>
   )
 }
 
